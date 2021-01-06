@@ -1,6 +1,6 @@
 CREATE TABLE Personnel (
-  name text,
-  salary integer
+  name VARCHAR(32) PRIMARY KEY,
+  salary INTEGER
 );
 
 INSERT INTO Personnel

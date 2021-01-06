@@ -1,7 +1,7 @@
 CREATE TABLE SomeTable (
-  p_key text,
-  col_1 integer,
-  col_2 text
+  p_key CHAR(1) PRIMARY KEY,
+  col_1 INTEGER NOT NULL, 
+  col_2 CHAR(2) NOT NULL
 );
 
 INSERT INTO SomeTable
