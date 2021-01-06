@@ -1,4 +1,7 @@
-CREATE TABLE PopTbl (pref_name text, population integer);
+CREATE TABLE PopTbl (
+  pref_name VARCHAR(32) PRIMARY KEY,
+  population INTEGER NOT NULL
+);
 
 INSERT INTO PopTbl
 VALUES ('徳島', 100),
