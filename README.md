@@ -1,5 +1,7 @@
 # SQL_Practice
 
+Use PostgreSQL
+
 Create role and db.
 
 ```
